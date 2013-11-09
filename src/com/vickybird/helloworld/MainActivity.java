@@ -1,7 +1,9 @@
 package com.vickybird.helloworld;
 
+import android.content.Intent;
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends Activity
 {
@@ -11,5 +13,10 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+    }
+
+    public void onButtonClick(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 }
