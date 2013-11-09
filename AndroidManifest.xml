@@ -6,7 +6,7 @@
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity
             android:name="com.vickybird.helloworld.MainActivity"
-            android:label="@string/app_name" >
+            android:label="Hello World" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
