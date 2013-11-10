@@ -6,7 +6,7 @@
     >
 
 	<ImageView
-	    android:src="@drawable/i_have_no_idea"
+        android:id="@+id/image"
 	    android:tag="I still have no idea what I\'m doing"
 	    android:layout_alignParentTop="true"
 	    android:layout_centerHorizontal="true"
