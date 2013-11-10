@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MainActivity</string>
+    <string name="app_name">Hello World</string>
+    <string name="derpy_says">Hello World!</string>
+    <string name="main_activity">MainActivity</string>
     <string name="second_activity">SecondActivity</string>
 </resources>
