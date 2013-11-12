@@ -14,4 +14,9 @@ public class BackgroundChangerActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.background_changer);
     }
+
+    public void onCancelClick(View view)
+    {
+    	finish();
+    }
 }
