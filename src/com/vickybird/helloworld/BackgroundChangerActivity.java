@@ -25,7 +25,7 @@ public class BackgroundChangerActivity extends Activity
     	finish();
     }
 
-    public void onSaveClick(View view)
+    public void onPreviewClick(View view)
     {
     	String redText = ((EditText) findViewById(R.id.red_value)).getText().toString();
     	String greenText = ((EditText) findViewById(R.id.green_value)).getText().toString();
@@ -50,5 +50,10 @@ public class BackgroundChangerActivity extends Activity
     		// TODO: some kind of handling here
     		return 0;
     	}
+    }
+
+    public void onSaveClick(View view)
+    {
+    	
     }
 }
