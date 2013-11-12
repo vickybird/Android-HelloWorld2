@@ -4,4 +4,5 @@
     <string name="derpy_says">Hello World!</string>
     <string name="main_activity">MainActivity</string>
     <string name="second_activity">SecondActivity</string>
+    <string name="background_changer_activity">BackgroundChanger</string>
 </resources>

@@ -15,8 +15,13 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
     }
 
-    public void onButtonClick(View view) {
+    public void onImageGetterButtonClick(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
+    }
+
+    public void onBgChangerButtonClick(View view) {
+        Intent intent = new Intent(this, BackgroundChangerActivity.class);
         startActivity(intent);
     }
 }

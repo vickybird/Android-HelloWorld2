@@ -23,5 +23,9 @@
             android:name="com.vickybird.helloworld.SecondActivity"
             android:label="@string/second_activity" >
         </activity>
+        <activity
+            android:name="com.vickybird.helloworld.BackgroundChangerActivity"
+            android:label="@string/background_changer_activity" >
+        </activity>
     </application>
 </manifest>
